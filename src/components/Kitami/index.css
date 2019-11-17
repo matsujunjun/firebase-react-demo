@@ -20,6 +20,407 @@ h1 {
   padding: 10px;
 }
 
+.map {
+  width: 100%;
+}
+
+.mapp {
+  width: 75%;
+}
+
+.allmap {
+  position: relative;
+}
+
+.notSelected {
+  position: absolute;
+  color: white;
+}
+.allmap .build1st {
+  position: absolute;
+  left: 56%;
+  top: 22%;
+  font-size: 54px;
+  color: yellow;
+}
+.allmap .build3rd {
+  position: absolute;
+  left: 48%;
+  top: 1%;
+  font-size: 54px;
+  color: yellow;
+}
+.allmap .build5th {
+  position: absolute;
+  left: 40%;
+  top: 28%;
+  font-size: 54px;
+  color: yellow;
+}
+.allmap .build6th {
+  position: absolute;
+  left: 40%;
+  top: 28%;
+  font-size: 54px;
+  color: yellow;
+}
+.allmap .build7th {
+  position: absolute;
+  left: 23%;
+  top: 26%;
+  font-size: 54px;
+  color: yellow;
+}
+.allmap .build8th {
+  position: absolute;
+  left: 23%;
+  top: 26%;
+  font-size: 54px;
+  color: yellow;
+}
+.allmap .build9th {
+  position: absolute;
+  left: 23%;
+  top: 5%;
+  font-size: 54px;
+  color: yellow;
+}
+.allmap .build10th {
+  position: absolute;
+  left: 23%;
+  top: 5%;
+  font-size: 54px;
+  color: yellow;
+}
+.allmap .build11th {
+  position: absolute;
+  left: 15%;
+  top: 20%;
+  font-size: 54px;
+  color: yellow;
+}
+.allmap .build12th {
+  position: absolute;
+  left: 15%;
+  top: 20%;
+  font-size: 54px;
+  color: yellow;
+}
+.allmap .build13th {
+  position: absolute;
+  left: 15%;
+  top: 5%;
+  font-size: 54px;
+  color: yellow;
+}
+.allmap .build14th {
+  position: absolute;
+  left: 15%;
+  top: 5%;
+  font-size: 54px;
+  color: yellow;
+}
+.allmap .build15th {
+  position: absolute;
+  left: 0%;
+  top: 20%;
+  font-size: 54px;
+  color: yellow;
+}
+.allmap .build16th {
+  position: absolute;
+  left: 0%;
+  top: 30%;
+  font-size: 54px;
+  color: yellow;
+}
+.allmap .build17th {
+  position: absolute;
+  left: 0%;
+  top: 35%;
+  font-size: 54px;
+  color: yellow;
+}
+.allmap .A101 {
+  position: absolute;
+  left: 50%;
+  top: 40%;
+  font-size: 54px;
+  color: yellow;
+}
+.allmap .A102 {
+  position: absolute;
+  left: 50%;
+  top: 40%;
+  font-size: 54px;
+  color: yellow;
+}
+.allmap .A103 {
+  position: absolute;
+  left: 50%;
+  top: 40%;
+  font-size: 54px;
+  color: yellow;
+}
+.allmap .A104 {
+  position: absolute;
+  left: 50%;
+  top: 40%;
+  font-size: 54px;
+  color: yellow;
+}
+.allmap .A105 {
+  position: absolute;
+  left: 50%;
+  top: 40%;
+  font-size: 54px;
+  color: yellow;
+}
+.allmap .A106 {
+  position: absolute;
+  left: 50%;
+  top: 40%;
+  font-size: 54px;
+  color: yellow;
+}
+.allmap .A107 {
+  position: absolute;
+  left: 50%;
+  top: 40%;
+  font-size: 54px;
+  color: yellow;
+}
+.allmap .A201 {
+  position: absolute;
+  left: 50%;
+  top: 40%;
+  font-size: 54px;
+  color: yellow;
+}
+.allmap .A202 {
+  position: absolute;
+  left: 50%;
+  top: 40%;
+  font-size: 54px;
+  color: yellow;
+}
+.allmap .A203 {
+  position: absolute;
+  left: 50%;
+  top: 40%;
+  font-size: 54px;
+  color: yellow;
+}
+.allmap .A204 {
+  position: absolute;
+  left: 50%;
+  top: 40%;
+  font-size: 54px;
+  color: yellow;
+}
+.allmap .A205 {
+  position: absolute;
+  left: 50%;
+  top: 40%;
+  font-size: 54px;
+  color: yellow;
+}
+.allmap .A206 {
+  position: absolute;
+  left: 50%;
+  top: 40%;
+  font-size: 54px;
+  color: yellow;
+}
+.allmap .A207 {
+  position: absolute;
+  left: 50%;
+  top: 40%;
+  font-size: 54px;
+  color: yellow;
+}
+.allmap .A208 {
+  position: absolute;
+  left: 50%;
+  top: 40%;
+  font-size: 54px;
+  color: yellow;
+}
+.allmap .A209 {
+  position: absolute;
+  left: 50%;
+  top: 40%;
+  font-size: 54px;
+  color: yellow;
+}
+.allmap .C121 {
+  position: absolute;
+  left: 50%;
+  top: 40%;
+  font-size: 54px;
+  color: yellow;
+}
+.allmap .C122 {
+  position: absolute;
+  left: 50%;
+  top: 40%;
+  font-size: 54px;
+  color: yellow;
+}
+.allmap .C221 {
+  position: absolute;
+  left: 50%;
+  top: 40%;
+  font-size: 54px;
+  color: yellow;
+}
+.allmap .B111 {
+  position: absolute;
+  left: 35%;
+  top: 23%;
+  font-size: 54px;
+  color: yellow;
+}
+.allmap .B211 {
+  position: absolute;
+  left: 35%;
+  top: 23%;
+  font-size: 54px;
+  color: yellow;
+}
+
+.detailMap {
+  position: relative;
+}
+.A101 {
+  position: absolute;
+  left: 8%;
+  top: 40%;
+  font-size: 36px;
+  color: red;
+}
+.A102 {
+  position: absolute;
+  left: 25%;
+  top: 20%;
+  font-size: 36px;
+  color: red;
+}
+.A103 {
+  position: absolute;
+  left: 37%;
+  top: 20%;
+  font-size: 36px;
+  color: red;
+}
+.A104 {
+  position: absolute;
+  left: 50%;
+  top: 20%;
+  font-size: 36px;
+  color: red;
+}
+
+.A105 {
+  position: absolute;
+  left: 62%;
+  top: 54%;
+  font-size: 36px;
+  color: red;
+}
+
+.A106 {
+  position: absolute;
+  left: 62%;
+  top: 80%;
+  font-size: 36px;
+  color: red;
+}
+
+.A107 {
+  position: absolute;
+  left: 40%;
+  top: 80%;
+  font-size: 36px;
+  color: red;
+}
+.A201 {
+  position: absolute;
+  left: 10%;
+  top: 55%;
+  font-size: 36px;
+  color: red;
+}
+.A202 {
+  position: absolute;
+  left: 10%;
+  top: 35%;
+  font-size: 36px;
+  color: red;
+}
+.A203 {
+  position: absolute;
+  left: 10%;
+  top: 15%;
+  font-size: 36px;
+  color: red;
+}
+.A204 {
+  position: absolute;
+  left: 27%;
+  top: 15%;
+  font-size: 36px;
+  color: red;
+}
+.A205 {
+  position: absolute;
+  left: 40%;
+  top: 15%;
+  font-size: 36px;
+  color: red;
+}
+.A206 {
+  position: absolute;
+  left: 50%;
+  top: 15%;
+  font-size: 36px;
+  color: red;
+}
+.A207 {
+  position: absolute;
+  left: 27%;
+  top: 75%;
+  font-size: 36px;
+  color: red;
+}
+.A208 {
+  position: absolute;
+  left: 64%;
+  top: 60%;
+  font-size: 36px;
+  color: red;
+}
+.A209 {
+  position: absolute;
+  left: 64%;
+  top: 47%;
+  font-size: 36px;
+  color: red;
+}
+.C121 {
+  position: absolute;
+  left: 10%;
+  top: 60%;
+  font-size: 36px;
+  color: red;
+}
+.C122 {
+  position: absolute;
+  left: 30%;
+  top: 10%;
+  font-size: 36px;
+  color: red;
+}
 /* .select {
   margin-bottom: 10px;
 } */

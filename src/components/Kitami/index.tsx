@@ -13,6 +13,9 @@ import b2 from "images/B2.jpg";
 import c1 from "images/C1.jpg";
 import e1 from "images/E1.jpg";
 import e2 from "images/E2.jpg";
+import dummy from "images/dummy.png";
+
+import WhereToVote from "@material-ui/icons/WhereToVote";
 
 const Home: React.FC = () => {
   const history = useHistory();
@@ -50,7 +53,7 @@ const Home: React.FC = () => {
       case "C122":
         return c1;
       default:
-        return;
+        return dummy;
     }
   };
   // const makeList = (obj: { build: string; room: string }, i: number) => {
@@ -64,7 +67,7 @@ const Home: React.FC = () => {
   // };
   return (
     <div className="Home-container">
-      <h1>北見工業大学案内図</h1>
+      <h1>工大迷い人の集い</h1>
       <span className="name select">建物名(教室名)</span>
       <Autocomplete
         id="build-select"
@@ -96,11 +99,17 @@ const Home: React.FC = () => {
           />
         )}
       />
-      <p class="name allmap">全域マップ</p>
-      <img src={allmap} alt="全域マップ" />;{isLoading && <p>Loading...</p>}
-      <p>詳細マップ</p>
-      <img src={handleDemo()} alt="img" />
-      {console.log(handleDemo())}
+      <p className="name">全域マップ</p>
+      <div className="allmap">
+        <img className="map" src={allmap} alt="全域マップ" />;
+        {selected !== "" && <WhereToVote className={selected} />}
+      </div>
+      {isLoading && <p>Loading...</p>}
+      <p className="name">詳細マップ</p>
+      <div className="detailMap">
+        <img className="mapp" src={handleDemo()} alt="img" />
+        {selected !== "" && <WhereToVote className={selected} />}
+      </div>
     </div>
   );
 };

@@ -10,7 +10,6 @@ const useRead = () => {
     let fetchList: any[] = [];
     snapshot.forEach(doc => {
       fetchList.push(doc.data());
-      console.log(doc.data());
     });
     setLists(fetchList);
     setLoading(false);
