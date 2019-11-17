@@ -1,0 +1,25 @@
+.Home-container {
+  margin: auto;
+}
+.post-container {
+  padding: 5%;
+}
+
+h1 {
+  color: blue;
+}
+
+/* #build-select {
+  margin-top: 10px;
+} */
+
+.name {
+  color: red;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px;
+}
+
+/* .select {
+  margin-bottom: 10px;
+} */
