@@ -4,7 +4,7 @@ import { useHistory } from "react-router-dom";
 import TextField from "@material-ui/core/TextField";
 import Autocomplete from "@material-ui/lab/Autocomplete";
 import { makeStyles } from "@material-ui/core/styles";
-
+import img from "images/E2.jpg";
 // ISO 3166-1 alpha-2
 // ⚠️ No support for IE 11
 function countryToFlag(isoCode: string) {
@@ -64,6 +64,7 @@ const Demo: React.FC = () => {
           />
         )}
       />
+      <img src={img} alt="e2" />
     </>
   );
 };
