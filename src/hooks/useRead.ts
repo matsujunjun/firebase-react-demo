@@ -6,7 +6,7 @@ const useRead = () => {
   const [isLoading, setLoading] = useState(false);
   const read = async () => {
     setLoading(true);
-    const snapshot = await DB.collection("posts").get();
+    const snapshot = await DB.collection("kodai-map").get();
     let fetchList: any[] = [];
     snapshot.forEach(doc => {
       fetchList.push(doc.data());
